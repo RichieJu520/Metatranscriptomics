@@ -1,6 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Feng Ju
+@email: richieju520@gmail.com
+The script was written and tested in python 2.7
+"""
+
 ### Script to calculate TPM (Transcripts Per Kilobase Million) and RPKM (Reads Per Kilobase Million)
 ### values of genes to normalize for sequencing depth and gene length
-### written by Feng JU (richieju@eawag.ch)
 
 # convert coverage to read abundance
 # column i is average coverage while column j the reference length
