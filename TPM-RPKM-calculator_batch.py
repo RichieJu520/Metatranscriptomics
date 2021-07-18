@@ -65,7 +65,7 @@ def making_folder(foldername):
 
 if __name__ == '__main__':
     import os
-    foldername = 'ORFs_RNA_coverage'
+    foldername = 'ORFs_coverage_example'
     making_folder(foldername + '-TPM-RPKM')
     for root,dirs,files in os.walk(foldername):
         for file in files:
