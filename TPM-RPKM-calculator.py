@@ -62,7 +62,7 @@ def RPKM(d_rabu, d_RL):
     return d_RPKM
 
 if __name__ == '__main__':
-    d_cov, d_RL, d_rabu, d_RPK = summarize_table('S1.coverage.csv',2,3)
+    d_cov, d_RL, d_rabu, d_RPK = summarize_table('W1.coverage.csv',2,3)
     d_TPM = TPM(d_RPK)
     d_RPKM = RPKM(d_rabu, d_RL)
 
